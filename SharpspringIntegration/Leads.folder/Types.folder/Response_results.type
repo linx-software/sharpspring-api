@@ -1,0 +1,11 @@
+{
+  "Id": "T4KA",
+  "Name": "Response_results",
+  "Properties": [
+    {
+      "Id": "be5F",
+      "Name": "lead",
+      "Type": "List:Custom:uOP1"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Id": "xpcr",
+  "Name": "RequestDateRange",
+  "Properties": [
+    {
+      "Id": "wr1Z",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "MyoO",
+      "Name": "method",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "uV0f",
+      "Name": "params",
+      "Type": "Custom:8Ezg"
+    }
+  ]
+}

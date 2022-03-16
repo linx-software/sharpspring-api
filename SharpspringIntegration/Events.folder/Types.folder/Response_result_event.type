@@ -1,0 +1,46 @@
+{
+  "Id": "b46w",
+  "Name": "Response_result_event",
+  "Properties": [
+    {
+      "Id": "TO5P",
+      "Name": "createTimestamp",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "wdUj",
+      "Name": "eventData",
+      "Type": "Custom:nbGJ"
+    },
+    {
+      "Id": "rncU",
+      "Name": "eventName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "8Iwt",
+      "Name": "eventSource",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "7cdi",
+      "Name": "id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "OaXO",
+      "Name": "leadID",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "GzVz",
+      "Name": "whatID",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "dhRU",
+      "Name": "whatType",
+      "Type": "Compiled:String"
+    }
+  ]
+}

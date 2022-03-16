@@ -1,0 +1,45 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:jBwA",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"id\":{\"LinxExpression\":\"[PARSED]\"}, \"method\":\"getEvents\", \"params\":{\"where\":{\"leadID\":{\"LinxExpression\":\"[PARSED]\"}}}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "id"
+            ],
+            "expression": {
+              "Expression": "$.System.CurrentDateTime.ToString(\"yyyyMMddHHmmss\")",
+              "CompiledExpression": "={0}.ToString(\"yyyyMMddHHmmss\")",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "params",
+              "where",
+              "leadID"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.LeadId",
+              "CompiledExpression": "={0}",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:jBwA",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    }
+  ],
+  "Result": "Custom:jBwA"
+}

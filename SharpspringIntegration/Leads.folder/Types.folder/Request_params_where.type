@@ -1,0 +1,16 @@
+{
+  "Id": "mqiO",
+  "Name": "Request_params_where",
+  "Properties": [
+    {
+      "Id": "CAOj",
+      "Name": "emailAddress",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "yk09",
+      "Name": "id",
+      "Type": "Compiled:String"
+    }
+  ]
+}

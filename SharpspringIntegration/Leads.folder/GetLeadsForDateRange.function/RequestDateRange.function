@@ -1,0 +1,55 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:xpcr",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"id\":{\"LinxExpression\":\"[PARSED]\"}, \"method\":\"getLeadsDateRange\", \"params\":{\"limit\":1000, \"offset\":0, \"where\":{}, \"endDate\":{\"LinxExpression\":\"[PARSED]\"}, \"startDate\":{\"LinxExpression\":\"[PARSED]\"}, \"timestamp\":\"update\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "id"
+            ],
+            "expression": {
+              "Expression": "$.System.CurrentDateTime.ToString(\"yyyyMMddHHmmss\")",
+              "CompiledExpression": "={0}.ToString(\"yyyyMMddHHmmss\")",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "params",
+              "endDate"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.endDate.ToString(\"yyyy-MM-dd HH:mm:ss\")",
+              "CompiledExpression": "={0}.ToString(\"yyyy-MM-dd HH:mm:ss\")",
+              "Type": "Compiled:String"
+            }
+          },
+          {
+            "typePath": [
+              "params",
+              "startDate"
+            ],
+            "expression": {
+              "Expression": "$.Parameters.startDate.ToString(\"yyyy-MM-dd HH:mm:ss\")",
+              "CompiledExpression": "={0}.ToString(\"yyyy-MM-dd HH:mm:ss\")",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:xpcr",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    }
+  ],
+  "Result": "Custom:xpcr"
+}

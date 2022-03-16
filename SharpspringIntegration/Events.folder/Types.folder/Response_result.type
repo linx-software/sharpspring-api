@@ -1,0 +1,11 @@
+{
+  "Id": "wU03",
+  "Name": "Response_result",
+  "Properties": [
+    {
+      "Id": "qYj0",
+      "Name": "event",
+      "Type": "List:Custom:b46w"
+    }
+  ]
+}

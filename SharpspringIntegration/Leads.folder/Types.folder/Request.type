@@ -1,0 +1,21 @@
+{
+  "Id": "Mx0d",
+  "Name": "Request",
+  "Properties": [
+    {
+      "Id": "P77C",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "OhRF",
+      "Name": "method",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "SNaA",
+      "Name": "params",
+      "Type": "Custom:Q2mW"
+    }
+  ]
+}

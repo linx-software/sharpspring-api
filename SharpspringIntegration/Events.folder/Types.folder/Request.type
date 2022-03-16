@@ -1,0 +1,21 @@
+{
+  "Id": "jBwA",
+  "Name": "Request",
+  "Properties": [
+    {
+      "Id": "spKx",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "StzT",
+      "Name": "method",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "agVe",
+      "Name": "params",
+      "Type": "Custom:T2Rk"
+    }
+  ]
+}

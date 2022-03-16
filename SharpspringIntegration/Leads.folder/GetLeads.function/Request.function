@@ -1,0 +1,44 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:Mx0d",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "ParsedExpression": "{\"method\":\"getLeads\", \"params\":{\"where\":{\"LinxExpression\":\"[PARSED]\"},\"limit\":\"5\",\"offset\":\"0\"}, \"id\":{\"LinxExpression\":\"[PARSED]\"}}",
+        "ExpressionPlaceholders": [
+          {
+            "typePath": [
+              "params",
+              "where"
+            ],
+            "expression": {
+              "Expression": "$.System.Null",
+              "CompiledExpression": "={0}",
+              "Type": null
+            }
+          },
+          {
+            "typePath": [
+              "id"
+            ],
+            "expression": {
+              "Expression": "$.System.CurrentDateTime.ToString(\"yyyyMMddHHmmss\")",
+              "CompiledExpression": "={0}.ToString(\"yyyyMMddHHmmss\")",
+              "Type": "Compiled:String"
+            }
+          }
+        ]
+      },
+      "ValueType": "Linx.JsonExpression"
+    },
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:Mx0d",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    }
+  ],
+  "Result": "Custom:Mx0d"
+}

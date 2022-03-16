@@ -1,0 +1,21 @@
+{
+  "Id": "Q2mW",
+  "Name": "Request_params",
+  "Properties": [
+    {
+      "Id": "xzM7",
+      "Name": "limit",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "80IV",
+      "Name": "offset",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "EL6s",
+      "Name": "where",
+      "Type": "Custom:mqiO"
+    }
+  ]
+}

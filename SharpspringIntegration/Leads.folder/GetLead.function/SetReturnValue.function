@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Custom:uOP1",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "Response.result.lead[0]",
+        "CompiledExpression": "={0}[0]",
+        "Type": "Custom:uOP1"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Custom:uOP1",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Custom:uOP1"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

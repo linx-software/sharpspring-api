@@ -1,0 +1,24 @@
+{
+  "ExecutionPaths": [
+    {
+      "PluginId": "Loop",
+      "Name": "Loop",
+      "Result": "List:Custom:uOP1",
+      "Order": 0,
+      "IterationHint": "ZeroOrMore"
+    }
+  ],
+  "Properties": [
+    {
+      "Id": "List",
+      "Type": "List:Custom:uOP1",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "GetLeadsForDateRange",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:uOP1"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Id": "T2Rk",
+  "Name": "Request_params",
+  "Properties": [
+    {
+      "Id": "BFVo",
+      "Name": "limit",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "ZePX",
+      "Name": "offset",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "NnOJ",
+      "Name": "where",
+      "Type": "Custom:XvwS"
+    }
+  ]
+}

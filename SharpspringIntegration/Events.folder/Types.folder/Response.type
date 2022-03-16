@@ -1,0 +1,31 @@
+{
+  "Id": "f9rv",
+  "Name": "Response",
+  "Properties": [
+    {
+      "Id": "r2FK",
+      "Name": "callCount",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "XdkA",
+      "Name": "error",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "SxAx",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "qgPk",
+      "Name": "queryLimit",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "9C1g",
+      "Name": "result",
+      "Type": "Custom:wU03"
+    }
+  ]
+}

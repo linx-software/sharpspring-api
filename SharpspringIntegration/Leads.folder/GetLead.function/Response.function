@@ -1,0 +1,23 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:WD5O",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CallLeadRESTEndpoint.ResponseBody",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:WD5O",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    }
+  ],
+  "Result": "Custom:WD5O"
+}

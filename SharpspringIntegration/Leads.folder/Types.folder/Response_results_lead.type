@@ -1,0 +1,181 @@
+{
+  "Id": "uOP1",
+  "Name": "Response_results_lead",
+  "Properties": [
+    {
+      "Id": "dPUs",
+      "Name": "accountID",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "9om5",
+      "Name": "active",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "kMWM",
+      "Name": "campaignID",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "GPeX",
+      "Name": "city",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "hkuv",
+      "Name": "companyName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "hV4A",
+      "Name": "country",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "1K8x",
+      "Name": "createTimestamp",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "MJ7D",
+      "Name": "description",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "o9kb",
+      "Name": "emailAddress",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "kB6l",
+      "Name": "faxNumber",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "I0U0",
+      "Name": "firstName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "tj0y",
+      "Name": "id",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "aItT",
+      "Name": "industry",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "CxMm",
+      "Name": "isContact",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "4eGW",
+      "Name": "isCustomer",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Mqxl",
+      "Name": "isQualified",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "h7CM",
+      "Name": "isUnsubscribed",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "SSwe",
+      "Name": "lastName",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Qgcl",
+      "Name": "leadScore",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "43aM",
+      "Name": "leadScoreWeighted",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "AuHp",
+      "Name": "leadStatus",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "UZOc",
+      "Name": "mobilePhoneNumber",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "5fCX",
+      "Name": "officePhoneNumber",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ZwTG",
+      "Name": "ownerID",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ECSz",
+      "Name": "persona",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Du4o",
+      "Name": "phoneNumber",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ds65",
+      "Name": "phoneNumberExtension",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "WpHw",
+      "Name": "state",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "FcPL",
+      "Name": "status",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "5Oom",
+      "Name": "street",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ICdb",
+      "Name": "title",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "bx2E",
+      "Name": "trackingID",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "hRJz",
+      "Name": "updateTimestamp",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "7lbq",
+      "Name": "website",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "lsdo",
+      "Name": "zipcode",
+      "Type": "Compiled:String"
+    }
+  ]
+}

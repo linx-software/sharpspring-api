@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "mZWK",
+    "Name": "SharpspingApiUrl",
+    "Type": "Compiled:String",
+    "Value": "https://api.sharpspring.com/pubapi/v1.2/"
+  },
+  {
+    "Id": "hAGt",
+    "Name": "SharpspringAccountId",
+    "Type": "Compiled:String",
+    "Secret": true
+  },
+  {
+    "Id": "rniV",
+    "Name": "SharpspringApiKey",
+    "Type": "Compiled:String",
+    "Secret": true
+  },
+  {
+    "Id": "wKv8",
+    "Name": "SharpspringApiResponseLimit",
+    "Type": "Compiled:String",
+    "Value": "5"
+  }
+]

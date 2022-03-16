@@ -1,0 +1,31 @@
+{
+  "Id": "WD5O",
+  "Name": "Response",
+  "Properties": [
+    {
+      "Id": "uU2J",
+      "Name": "callCount",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "h2AF",
+      "Name": "error",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ic6k",
+      "Name": "id",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "4vfk",
+      "Name": "queryLimit",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "BZXh",
+      "Name": "result",
+      "Type": "Custom:T4KA"
+    }
+  ]
+}

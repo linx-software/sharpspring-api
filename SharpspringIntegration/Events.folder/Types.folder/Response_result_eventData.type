@@ -1,0 +1,26 @@
+{
+  "Id": "nbGJ",
+  "Name": "Response_result_eventData",
+  "Properties": [
+    {
+      "Id": "zmM3",
+      "Name": "isDelivered",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "Nxbm",
+      "Name": "isOpened",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "PNgL",
+      "Name": "referrer",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "Tryi",
+      "Name": "url",
+      "Type": "Compiled:String"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "Properties": [
+    {
+      "Id": "Value",
+      "Type": "Custom:f9rv",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CallEventsRESTEndpoint.ResponseBody",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Type",
+      "Type": "Compiled:Linx.ITypeReference",
+      "ValueUsage": "DesignTime",
+      "Value": "Custom:f9rv",
+      "ValueType": "Linx.ValidCustomTypeReference"
+    }
+  ],
+  "Result": "Custom:f9rv"
+}

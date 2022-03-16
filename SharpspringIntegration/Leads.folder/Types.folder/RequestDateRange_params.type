@@ -1,0 +1,31 @@
+{
+  "Id": "8Ezg",
+  "Name": "RequestDateRange_params",
+  "Properties": [
+    {
+      "Id": "ws5a",
+      "Name": "limit",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "XpwS",
+      "Name": "offset",
+      "Type": "Compiled:Int64"
+    },
+    {
+      "Id": "Bbgw",
+      "Name": "endDate",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "ytsi",
+      "Name": "startDate",
+      "Type": "Compiled:String"
+    },
+    {
+      "Id": "AR0b",
+      "Name": "timestamp",
+      "Type": "Compiled:String"
+    }
+  ]
+}

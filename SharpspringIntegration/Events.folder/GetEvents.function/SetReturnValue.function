@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Target",
+      "Type": "List:Custom:b46w",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:b46w"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Source",
+      "Type": "List:Custom:b46w",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "Response.result.event",
+        "CompiledExpression": "={0}",
+        "Type": "List:Custom:b46w"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}
